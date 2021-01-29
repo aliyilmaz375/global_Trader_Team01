@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.229">
+    <testcase classname="Global Trader Sign IN" name="TC_001 GlobalTrader Sign In Positive Test" time="17.298">
+        <system-out><![CDATA[Given kullanici anasayfaya gider............................................passed
+And Sign In butonuna tiklar.................................................passed
+And email girer.............................................................passed
+And password girer..........................................................passed
+Then Login butonuna tiklar..................................................passed
+Then hesabina basariyla girdigini test eder.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

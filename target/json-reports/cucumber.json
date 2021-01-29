@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-28T10:19:52.161Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_001 GlobalTrader Sign In Positive Test",
+        "description": "",
+        "id": "global-trader-sign-in;tc-001-globaltrader-sign-in-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 514130400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12301103800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici anasayfaya gider",
+            "match": {
+              "location": "stepdefinitions.US_1150_Stepdefinitions.kullanici_anasayfaya_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1583403300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sign In butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_1151_Stepdefinitions.sign_in_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524133200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "email girer",
+            "match": {
+              "location": "stepdefinitions.US_1150_Stepdefinitions.email_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356105300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "password girer",
+            "match": {
+              "location": "stepdefinitions.US_1150_Stepdefinitions.password_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1530382100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_1151_Stepdefinitions.login_butonuna_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256062900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "hesabina basariyla girdigini test eder",
+            "match": {
+              "location": "stepdefinitions.US_1151_Stepdefinitions.hesabina_basariyla_girdigini_test_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signin"
+          }
+        ]
+      }
+    ],
+    "name": "Global Trader Sign IN",
+    "description": "",
+    "id": "global-trader-sign-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_1151_glbTrader.feature",
+    "tags": []
+  }
+]
