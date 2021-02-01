@@ -1,7 +1,8 @@
 package utilities;
 
-import io.github.bonigarcia.wdm.OperaDriverManager;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.managers.OperaDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -43,7 +44,7 @@ public class Driver {
     }
     static public void closeDriver(){
         if (driver != null){
-            //driver.close();
+            driver.close();
             driver=null;
         }
     }
