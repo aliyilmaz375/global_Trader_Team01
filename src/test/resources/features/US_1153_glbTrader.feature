@@ -68,7 +68,7 @@ Feature: Global Trader Login
     And Kayıt isleminin yapilamadigini dogrular
 
   @wip
-  Scenario: TC_004_Joining the system by creating a new account with valid credentials
+  Scenario: TC_004_can not Join the system by creating a new account if invalid credentials are used
     Given kullanici anasayfaya gider
     Then Seller Join Now butonuna tiklar
     And Vendor Type secer
