@@ -3,10 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-28T10:19:52.161Z",
+        "start_timestamp": "2021-02-02T09:12:07.963Z",
         "before": [
           {
             "result": {
+              "duration": 8004600,
               "status": "passed"
             },
             "match": {
@@ -14,14 +15,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "TC_001 GlobalTrader Sign In Positive Test",
+        "line": 71,
+        "name": "TC_004_Joining the system by creating a new account with valid credentials",
         "description": "",
-        "id": "global-trader-sign-in;tc-001-globaltrader-sign-in-positive-test",
+        "id": "global-trader-login;tc-004-joining-the-system-by-creating-a-new-account-with-valid-credentials",
         "after": [
           {
             "result": {
-              "duration": 514130400,
+              "duration": 451979700,
               "status": "passed"
             },
             "match": {
@@ -34,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12301103800,
+              "duration": 12748037800,
               "status": "passed"
             },
-            "line": 4,
+            "line": 72,
             "name": "kullanici anasayfaya gider",
             "match": {
               "location": "stepdefinitions.US_1150_Stepdefinitions.kullanici_anasayfaya_gider()"
@@ -46,77 +47,245 @@
           },
           {
             "result": {
-              "duration": 1583403300,
+              "duration": 1963852100,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Sign In butonuna tiklar",
+            "line": 73,
+            "name": "Seller Join Now butonuna tiklar",
             "match": {
-              "location": "stepdefinitions.US_1151_Stepdefinitions.sign_in_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 524133200,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "email girer",
-            "match": {
-              "location": "stepdefinitions.US_1150_Stepdefinitions.email_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 356105300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "password girer",
-            "match": {
-              "location": "stepdefinitions.US_1150_Stepdefinitions.password_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1530382100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Login butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.US_1151_Stepdefinitions.login_butonuna_tiklar()"
+              "location": "stepdefinitions.US_1153_Stepdefinitions.seller_join_now_butonuna_tiklar()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 256062900,
+              "duration": 167979600,
               "status": "passed"
             },
-            "line": 9,
-            "name": "hesabina basariyla girdigini test eder",
+            "line": 74,
+            "name": "Vendor Type secer",
             "match": {
-              "location": "stepdefinitions.US_1151_Stepdefinitions.hesabina_basariyla_girdigini_test_eder()"
+              "location": "stepdefinitions.US_1153_Stepdefinitions.vendor_type_secer()"
             },
-            "keyword": "Then "
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375950400,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Sadece harflerden olusan bir company ismi girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.sadece_harflerden_olusan_bir_company_ismi_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248004400,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "10 haneli numaralardan olusan company mobile girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.haneli_numaralardan_olusan_company_mobile_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1446832100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Company address girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.company_address_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271962300,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Sadece harflerden olusan full name girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.sadece_harflerden_olusan_full_name_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255965300,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Invalid bir email address girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.invalidBirEmailAddressGirer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265839900,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Page Url oalcak bir subdomain adress girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.page_url_oalcak_bir_subdomain_adress_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234911500,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "10 haneli numaralardan olusan mobile number girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.haneliNumaralardanOlusanMobileNumberGirer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363473400,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Dropdowndan bir country secer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.dropdowndan_bir_country_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263962800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "State name girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.state_name_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222491500,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "City name girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.city_name_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227989600,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Bir adres girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.bir_adres_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183973800,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Postal Code girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.postal_code_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247977700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Categories Dropdowndan bir category secer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.categories_dropdowndan_bir_category_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207969800,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Seller Registrationa password girer",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.seller_registrationa_password_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247966100,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "* ile isaretli zorunlu alanlarin dolu oldugunu dogrular",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.ile_isaretli_zorunlu_alanlarin_dolu_oldugunu_dogrular()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135987600,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Registration Buttonunu tiklar",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.registration_buttonunu_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95981600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Kayıt isleminin yapilamadigini dogrular",
+            "match": {
+              "location": "stepdefinitions.US_1153_Stepdefinitions.kayıtIslemininYapilamadiginiDogrular()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@signin"
+            "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Global Trader Sign IN",
+    "name": "Global Trader Login",
     "description": "",
-    "id": "global-trader-sign-in",
+    "id": "global-trader-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_1151_glbTrader.feature",
+    "uri": "file:src/test/resources/features/US_1153_glbTrader.feature",
     "tags": []
   }
 ]
