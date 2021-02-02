@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.229">
-    <testcase classname="Global Trader Sign IN" name="TC_001 GlobalTrader Sign In Positive Test" time="17.298">
-        <system-out><![CDATA[Given kullanici anasayfaya gider............................................passed
-And Sign In butonuna tiklar.................................................passed
-And email girer.............................................................passed
-And password girer..........................................................passed
-Then Login butonuna tiklar..................................................passed
-Then hesabina basariyla girdigini test eder.................................passed
-]]></system-out>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.389">
+    <testcase classname="Global Trader Login" name="TC_004_Joining the system by creating a new account with valid credentials" time="21.001">
+        <system-out>
+            <![CDATA[Given kullanici anasayfaya gider............................................passed
+Then Seller Join Now butonuna tiklar........................................passed
+And Vendor Type secer.......................................................passed
+And Sadece harflerden olusan bir company ismi girer.........................passed
+And 10 haneli numaralardan olusan company mobile girer......................passed
+And Company address girer...................................................passed
+And Sadece harflerden olusan full name girer................................passed
+And Invalid bir email address girer.........................................passed
+And Page Url oalcak bir subdomain adress girer..............................passed
+And 10 haneli numaralardan olusan mobile number girer.......................passed
+And Dropdowndan bir country secer...........................................passed
+And State name girer........................................................passed
+And City name girer.........................................................passed
+And Bir adres girer.........................................................passed
+And Postal Code girer.......................................................passed
+And Categories Dropdowndan bir category secer...............................passed
+And Seller Registrationa password girer.....................................passed
+And * ile isaretli zorunlu alanlarin dolu oldugunu dogrular.................passed
+And Registration Buttonunu tiklar...........................................passed
+And Kayıt isleminin yapilamadigini dogrular.................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
