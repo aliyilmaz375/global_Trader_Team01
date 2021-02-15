@@ -33,4 +33,7 @@ public class US_1151_Page {
 
     @FindBy(linkText = "Logout")
     public WebElement logOut;
+
+
+
 }
